@@ -52,10 +52,10 @@
             <div>
               <p>1.</p>
               <a href="javascript:void(0)" onclick="scrollToSection('menuOne-section')">
-                TYPES OF DATA WE OR OUR SERVICE PROVIDER COLLECTS
+                Types Of Data We Or Our Service Provider Collects
               </a>
             </div>
-            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            <i class="fa fa-chevron-down " aria-hidden="true"></i>
           </div>
           <ul class="child-item d-none">
             <li>
@@ -80,7 +80,7 @@
             <div>
               <p>2.</p>
               <a href="javascript:void(0)" onclick="scrollToSection('menuTwo-section')">
-                HOW DATA ARE COLLECTED
+                How Data Are Collected
               </a>
             </div>
             <!-- <i class="fa fa-chevron-down" aria-hidden="true"></i> -->
@@ -91,7 +91,7 @@
             <div>
               <p>3.</p>
               <a href="javascript:void(0)" onclick="scrollToSection('menuThree-section')">
-                LAWFUL BASES FOR PROCESSING
+                Lawful Bases For Processing
               </a>
             </div>
             <!-- <i class="fa fa-chevron-down" aria-hidden="true"></i> -->
@@ -102,7 +102,7 @@
             <div>
               <p>4.</p>
               <a href="javascript:void(0)" onclick="scrollToSection('menuFour-section')">
-                PURPOSES FOR PERSONAL DATA USE
+                Purposes For Personal Data Use
               </a>
             </div>
             <!-- <i class="fa fa-chevron-down" aria-hidden="true"></i> -->
@@ -113,7 +113,7 @@
             <div>
               <p>5.</p>
               <a href="javascript:void(0)" onclick="scrollToSection('menuFive-section')">
-                THIRD-PARTY SERVICES & DISCLOSURES OF YOUR DATA
+                Third-Party Services & Disclosures Of Your Data
               </a>
             </div>
             <i class="fa fa-chevron-down" aria-hidden="true"></i>
@@ -156,7 +156,7 @@
             <div>
               <p>6.</p>
               <a href="javascript:void(0)" onclick="scrollToSection('menuSix-section')">
-                DATA RETENTION / DELETION POLICIES
+                Data Retention / Deletion Policies
               </a>
             </div>
             <!-- <i class="fa fa-chevron-down" aria-hidden="true"></i> -->
@@ -167,7 +167,7 @@
             <div>
               <p>7.</p>
               <a href="javascript:void(0)" onclick="scrollToSection('menuSeven-section')">
-                GUIDELINES FROM THE GOVERNMENT AND INDUSTRY SOURCES
+                Guidelines From The Government And Industry Sources
               </a>
             </div>
             <i class="fa fa-chevron-down" aria-hidden="true"></i>
@@ -200,7 +200,7 @@
             <div>
               <p>8.</p>
               <a href="javascript:void(0)" onclick="scrollToSection('menuEight-section')">
-                SHARING PERSONAL LEGAL RIGHTS
+                Sharing Personal Legal Rights
               </a>
             </div>
             <!-- <i class="fa fa-chevron-down" aria-hidden="true"></i> -->
@@ -211,7 +211,7 @@
             <div>
               <p>9.</p>
               <a href="javascript:void(0)" onclick="scrollToSection('menuNine-section')">
-                MINORS
+                Minors
               </a>
             </div>
             <!-- <i class="fa fa-chevron-down" aria-hidden="true"></i> -->
@@ -222,7 +222,7 @@
             <div>
               <p>10.</p>
               <a href="javascript:void(0)" onclick="scrollToSection('menuTen-section')">
-                CONTACT INFORMATION
+                Contact Information
               </a>
             </div>
             <!-- <i class="fa fa-chevron-down" aria-hidden="true"></i> -->
@@ -234,19 +234,19 @@
     <div class="main-content">
       <div>
         <h1 class="gradient-header">Privacy Policy</h1>
-        <p>
+        <p class="text-color">
           This “Privacy Policy” describes what data Dev_Name and our Corporate Affiliates (collectively, "App_Name,"
           "we," "us," "our" or "Application Provider") or our service provider ("third-party" or "third-parties")
           collect(s), how data are collected, and the purposes of collecting those data from users ("user" or "your" or
           "you") through our app/service.
         </p>
-        <p>
+        <p class="text-color">
           We value the privacy of your data and are dedicated to safeguarding it. Your privacy is of utmost importance
           to us. This privacy policy also governs Your use of the software applications for mobile devices that were
           developed by Dev_Name dba App_Name ("Company"), making us responsible for the data collected through the use
           of our app.
         </p>
-        <p>
+        <p class="text-color">
           You will be given an opportunity to read and accept this privacy policy before using the application. By
           continuing and accepting the policy, you affirm that you have read, understood, and agreed to our Privacy
           Policy. Users must be at least 13 years old to accept these terms. If you don’t agree with our policies,
@@ -256,61 +256,61 @@
 
       <section id="menuOne-section">
         <h3>1. TYPES OF DATA WE OR OUR SERVICE PROVIDER COLLECTS</h3>
-        <p>
+        <p class="text-color">
           Personal data, also referred to as personal information, encompasses any details that can identify an
           individual. This definition excludes information from which personal identities have been eliminated, known as
           anonymous data. We may collect limited personal information under consent agreed by you. Third-parties,
           including analytics tools, advertising networks, third-party SDKs, etc. associated with our app may also
           collect several data. We have grouped those data as follows:
         </p>
-        <div class="inner-section">
+        <div class="inner-section text-color">
           <div id="menuOne-1">
-            <b>1.1 Personal data</b>. Such as user’s mail, name, business and owner name, telephone number, address, own
+            <b class="bold-text-color">1.1 Personal data</b>. Such as user’s mail, name, business and owner name, telephone number, address, own
             signature;
             <ul>
               <li>
-                <b>Contacts</b>. Information about your contacts, such as contact names and phone numbers;
+                <b class="bold-text-color">Contacts</b>. Information about your contacts, such as contact names and phone numbers;
               </li>
               <li>
-                <b>Device data</b>. Includes model, OS version, and language. Unique device identifiers (including IDFA
+                <b class="bold-text-color">Device data</b>. Includes model, OS version, and language. Unique device identifiers (including IDFA
                 or
                 GAID);
+              </li>              
+              <li>
+                <b class="bold-text-color">Device function</b>. Access to your camera;
               </li>
               <li>
-                <b>Device function</b>. Access to your camera;
-              </li>
-              <li>
-                <b>Photos</b>. Photos in your photo library.
+                <b class="bold-text-color">Photos</b>. Photos in your photo library.
               </li>
             </ul>
           </div>
           <div id="menuOne-2">
-            <b>1.2 Usage data</b>. Includes information about how you use our app, user activity within the
+            <b class="bold-text-color">1.2 Usage data</b>. Includes information about how you use our app, user activity within the
             application;
             <ul>
               <li>
-                <b>Location data and Demographic data</b>. Includes internet protocol (IP) address and location,
+                <b class="bold-text-color">Location data and Demographic data</b>. Includes internet protocol (IP) address and location,
                 country, state, city, zip code, and timezone;
               </li>
               <li>
-                <b>Data on subscription fees</b>. This is the information we get from the App Store when you buy our
+                <b class="bold-text-color">Data on subscription fees</b>. This is the information we get from the App Store when you buy our
                 subscription;
               </li>
               <li>
-                <b>Data of your clients</b>. Includes your client’s name, email,  phone, mobile, and address;
+                <b class="bold-text-color">Data of your clients</b>. Includes your client’s name, email,  phone, mobile, and address;
               </li>
               <li>
-                <b>Business information</b>. Item info includes information on which services the user provides, the
+                <b class="bold-text-color">Business information</b>. Item info includes information on which services the user provides, the
                 website, what goods he sells, what their cost is, and the amount of tax;
               </li>
               <li>
-                <b>Financial info</b>. Such as a bank account, checks, and PayPal email.
+                <b class="bold-text-color">Financial info</b>. Such as a bank account, checks, and PayPal email.
               </li>
             </ul>
           </div>
           <div id="menuOne-3">
             <p>
-              <b>1.3 Data from third-parties</b>. Such as name and ID when users register with Google, Facebook, or
+              <b class="bold-text-color">1.3 Data from third-parties</b>. Such as name and ID when users register with Google, Facebook, or
               Apple accounts.
             </p>
             <p>
@@ -334,10 +334,10 @@
 
       <section id="menuTwo-section">
         <h1>2. HOW DATA ARE COLLECTED</h1>
-        <p>
+        <p class="text-color">
           We may collect data from the following sources:
         </p>
-        <ul>
+        <ul class="text-color">
           <li>
             Directly from you. For example, from the forms you complete on our service, preferences you express or
             provide through our service, or from your purchases on our service.
@@ -358,36 +358,36 @@
 
       <section id="menuThree-section">
         <h1>3. LAWFUL BASES FOR PROCESSING</h1>
-        <p>
+        <p class="text-color">
           We will only use your personal data when the law allows us to. We may process Personal Data under the
           following conditions:
         </p>
-        <ul>
+        <ul class="text-color">
           <li>
-            <b>Consent</b>: You have given your consent to process Personal Data for one or more specific purposes.
+            <b class="bold-text-color">Consent</b>: You have given your consent to process Personal Data for one or more specific purposes.
           </li>
           <li>
-            <b>Performance of a contract</b>: Provision of Personal Data is necessary for the performance of an
+            <b class="bold-text-color">Performance of a contract</b>: Provision of Personal Data is necessary for the performance of an
             agreement with you and/or for any pre-contractual obligations thereof.
           </li>
           <li>
-            <b>Legal obligations</b>: Processing Personal Data is necessary to comply with the legal obligation to which
+            <b class="bold-text-color">Legal obligations</b>: Processing Personal Data is necessary to comply with the legal obligation to which
             we are subject.
           </li>
           <li>
-            <b>Vital interests</b>: Processing Personal Data is necessary to protect your vital interests or those of
+            <b class="bold-text-color">Vital interests</b>: Processing Personal Data is necessary to protect your vital interests or those of
             another natural person.
           </li>
           <li>
-            <b>Public interests</b>: Processing Personal Data is related to a task carried out in the public interest or
+            <b class="bold-text-color">Public interests</b>: Processing Personal Data is related to a task carried out in the public interest or
             the exercise of official authority vested in us.
           </li>
           <li>
-            <b>Legitimate interests</b>: Processing Personal Data is necessary for the legitimate interests pursued by
+            <b class="bold-text-color">Legitimate interests</b>: Processing Personal Data is necessary for the legitimate interests pursued by
             us.
           </li>
         </ul>
-        <p>
+        <p class="text-color">
           In any case, we will gladly help to clarify the specific legal basis that applies to the processing,
           particularly whether the provision of Personal Data is a statutory or contractual requirement or a requirement
           necessary to enter into a contract.
@@ -396,11 +396,11 @@
 
       <section id="menuFour-section">
         <h1>4. PURPOSES FOR PERSONAL DATA USE</h1>
-        <p>
+        <p class="text-color">
           Below is a table format indicating the legal bases we rely on as a data controller for processing your
           personal information. We have also identified our legitimate interests where appropriate.
         </p>
-        <p>
+        <p class="text-color">
           Depending on the specific purpose, we may process your data based on multiple lawful grounds. Contact us for
           details on the legal basis for processing your data if more than one ground applies.
         </p>
@@ -569,23 +569,23 @@
 
       <section id="menuFive-section">
         <h1>5. THIRD-PARTY SERVICES & DISCLOSURES OF YOUR DATA</h1>
-        <p>
+        <p class="text-color">
           Some third-party applications and services that work with us may ask for permission to access your
           information. These third-party vendors collect, store, use, process, and transfer information about your
           activity on our service in accordance with their Privacy Policies.
         </p>
-        <p>
+        <p class="text-color">
           We will not use personal data in a manner that conflicts with its intended purposes as outlined in the "Types
           of data we collect" section of this privacy policy, nor will we gather unnecessary personal data beyond those
           specified purposes.
         </p>
-        <p>
+        <p class="text-color">
           We’ll avoid using the information gained through your use of our app and other frameworks for advertising or
           similar services or sell it to advertising platforms, data brokers, or information resellers.
         </p>
-        <div class="inner-section">
+        <div class="inner-section text-color">
           <div id="menuFive-1">
-            <p>
+            <p class="bold-text-color">
               <b>5.1 Google Analytics</b>
             </p>
             <p>
@@ -597,16 +597,16 @@
             <p>
               You may opt out of certain Google Analytics features through your mobile device settings, such as your
               device advertising settings, or by following the instructions provided by Google in their Privacy Policy:
-              <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>
+              <a href="https://policies.google.com/privacy" class="text-link">https://policies.google.com/privacy</a>
             </p>
             <p>
               For more information on the privacy practices of Google, please visit the Google Privacy & Terms web page:
-              <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>
+              <a href="https://policies.google.com/privacy" class="text-link">https://policies.google.com/privacy</a>
             </p>
           </div>
           <div id="menuFive-2">
             <!-- <h1>menu2part2</h1> -->
-            <p>
+            <p class="bold-text-color">
               <b>5.2 Firebase</b>
             </p>
             <p>
@@ -615,22 +615,22 @@
             <p>
               You may opt out of certain Firebase features through your mobile device settings, such as your device
               advertising settings, or by following the instructions provided by Google in their Privacy Policy:
-              <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>
+              <a href="https://policies.google.com/privacy" class="text-link">https://policies.google.com/privacy</a>
             </p>
             <p>
               We also encourage you to review Google's Policy for safeguarding your data:
               <a
-                href="https://support.google.com/analytics/answer/6004245">https://support.google.com/analytics/answer/6004245</a>
+                href="https://support.google.com/analytics/answer/6004245" class="text-link">https://support.google.com/analytics/answer/6004245</a>
             </p>
             <p>
               For more information on what type of information Firebase collects, please visit the How Google uses data
               when you use our partners' sites or apps webpage: <a
-                href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a>
+                href="https://policies.google.com/technologies/partner-sites" class="text-link">https://policies.google.com/technologies/partner-sites</a>
             </p>
           </div>
           <div id="menuFive-3">
             <!-- <h1>menu2part2</h1> -->
-            <p>
+            <p class="bold-text-color">
               <b>5.3 Facebook Analytics</b>
             </p>
             <p>
@@ -640,17 +640,17 @@
           </div>
           <div id="menuFive-4">
             <!-- <h1>menu2part2</h1> -->
-            <p>
+            <p class="bold-text-color">
               <b>5.4 AppsFlyer</b>
             </p>
             <p>
               Their Privacy Policy can be viewed at <a
-                href="https://www.appsflyer.com/legal/privacy-policy">https://www.appsflyer.com/legal/privacy-policy</a>
+                href="https://www.appsflyer.com/legal/privacy-policy" class="text-link">https://www.appsflyer.com/legal/privacy-policy</a>
             </p>
           </div>
           <div id="menuFive-5">
             <!-- <h1>menu2part2</h1> -->
-            <p>
+            <p class="bold-text-color">
               <b>5.5 Advertising</b>
             </p>
             <p>
@@ -659,7 +659,7 @@
           </div>
           <div id="menuFive-6">
             <!-- <h1>menu2part2</h1> -->
-            <p>
+            <p class="bold-text-color">
               <b>5.6 AdMob by Google</b>
             </p>
             <p>
@@ -671,9 +671,9 @@
             </p>
             <p>
               Page: <a
-                href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a>
+                href="https://policies.google.com/technologies/partner-sites" class="text-link">https://policies.google.com/technologies/partner-sites</a>
               or visit Google's privacy policy:
-              <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>.
+              <a href="https://policies.google.com/privacy" class="text-link">https://policies.google.com/privacy</a>.
             </p>
           </div>
         </div>
@@ -681,35 +681,35 @@
 
       <section id="menuSix-section">
         <h1>6. DATA RETENTION / DELETION POLICIES</h1>
-        <p>
+        <p class="text-color">
           We may retain your Personal Data only for as long as is necessary for the purposes set out in this Privacy
           Policy. We may retain and use your Personal Data to the extent necessary to comply with our legal obligations
           (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and
           enforce our legal agreements and policies.
         </p>
-        <p>
+        <p class="text-color">
           We may retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period
           of time, except when this data is used to strengthen the security or to improve the functionality of our
           service, or we are legally obligated to retain this data for longer time periods.
         </p>
-        <p>
+        <p class="bold-text-color">
           <b>How A User Can Revoke Consent And/Or Request Deletion Of The User's Data</b>
         </p>
-        <p>
+        <p class="text-color">
           We store your data while you use our application. In some circumstances, you can request data deletion by
-          sending an email to our address: example@invoicemaker.com. Under certain conditions, we may anonymize your
-          data for research or statistical purposes, allowing us to utilize this information indefinitely without
-          additional notification to you.
+          sending an email to our address: <a href="mailto:example@invoicemaker.com" class="text-link">example@invoicemaker.com</a>.
+          Under certain conditions, we may anonymize your data for research or statistical purposes, allowing us to
+          utilize this information indefinitely without additional notification to you.
         </p>
-        <p>
+        <p class="text-color">
           We mandate third-parties to uphold the security of your personal data in compliance with legal standards. If
           you wish to delete your personal information from their database, it is your responsibility to contact them
           directly for deletion.
         </p>
-        <p>
+        <p class="bold-text-color">
           <b>Note:</b>
         </p>
-        <p>
+        <p class="text-color">
           The security of your Personal Data is important to us, but remember that no method of transmission over the
           Internet or electronic storage is 100% secure. While we strive to use commercially acceptable means to protect
           your Personal Data, we cannot guarantee its absolute security.
@@ -718,14 +718,14 @@
 
       <section id="menuSeven-section">
         <h1>7. GUIDELINES FROM THE GOVERNMENT AND INDUSTRY SOURCES</h1>
-        <p>
+        <p class="text-color">
           The rights highlighted below go parallel with the Federal Trade Commission (FTC), which enforces federal
           consumer protection laws. These are applicable to users subject to the General Data Protection Regulation
           (GDPR), California Consumer Privacy Act (CCPA), and Children's Online Privacy and Protection Act (COPPA):
         </p>
-        <div class="inner-section">
+        <div class="inner-section text-color">
           <div id="menuSeven-1">
-            <p>
+            <p class="bold-text-color">
               <b>7.1 Federal Trade Commission Regulations</b>
             </p>
             <p>
@@ -733,14 +733,14 @@
             </p>
           </div>
           <div id="menuSeven-2">
-            <p>
+            <p class="bold-text-color">
               <b>7.2 CCPA Privacy</b>
             </p>
             <p>
               This privacy notice section for California residents supplements the information contained in our Privacy
               Policy, and it applies solely to all visitors, users, and others who reside in the State of California.
             </p>
-            <p>
+            <p class="bold-text-color">
               <b>Categories of Personal Information Collected</b>
             </p>
             <p>
@@ -919,7 +919,7 @@
             </ul>
           </div>
           <div id="menuSeven-3">
-            <p>
+            <p class="bold-text-color">
               <b>7.3 GDPR Legal Rights</b>
             </p>
             <p>
@@ -928,45 +928,45 @@
             </p>
             <ul>
               <li>
-                Request access to your Personal Data. The right to access, update, or delete the information we have on
+                <b class="bold-text-color">Request access to your Personal Data</b>. The right to access, update, or delete the information we have on
                 you. Whenever made possible, you can access, update, or request the deletion of your Personal Data
                 directly within your account settings section. If you are unable to perform these actions yourself,
                 please contact us to assist you. This also enables you to receive a copy of the Personal Data we hold
                 about you.
               </li>
               <li>
-                Request correction of the Personal Data that we hold about you. You have the right to have any
+                <b class="bold-text-color">Request correction of the Personal Data that we hold about you</b>. You have the right to have any
                 incomplete or inaccurate information we hold about you corrected.
               </li>
               <li>
-                Object to processing of your Personal Data. This right exists where we are relying on a legitimate
+                <b class="bold-text-color">Object to processing of your Personal Data</b>. This right exists where we are relying on a legitimate
                 interest as the legal basis for our processing, and there is something about your particular situation,
                 which makes you want to object to our processing of your Personal Data on this ground. You also have the
                 right to object where we are processing your Personal Data for direct marketing purposes.
               </li>
               <li>
-                Request the erasure of your Personal Data. You have the right to ask us to delete or remove Personal
+                <b class="bold-text-color">Request the erasure of your Personal Data</b>. You have the right to ask us to delete or remove Personal
                 Data when there is no good reason for us to continue processing it.
               </li>
               <li>
-                Request the transfer of your Personal Data. We will provide to you, or to a third-party you have chosen,
+                <b class="bold-text-color">Request the transfer of your Personal Data</b>. We will provide to you, or to a third-party you have chosen,
                 your Personal Data in a structured, commonly used, machine-readable format. Please note that this right
                 only applies to automated information that you initially provided consent for us to use or where we used
                 the information to perform a contract with you.
               </li>
               <li>
-                Withdraw your consent. You have the right to withdraw your consent on using your Personal Data. If you
+                <b class="bold-text-color">Withdraw your consent</b>. You have the right to withdraw your consent on using your Personal Data. If you
                 withdraw your consent, we may not be able to provide you with access to certain specific functionalities
                 of the service.
               </li>
             </ul>
             <p>
               If you need any further assistance regarding exercising any of these rights, communicate via our email:
-              <a href="mailto:example@invoicemaker.com">example@invoicemaker.com</a>. In your request, please clarify:
+              <a href="mailto:example@invoicemaker.com" class="text-link">example@invoicemaker.com</a>. In your request, please clarify:
               (I) what Personal Data is concerned; and (ii)
               which of the above rights you would like to exercise.
             </p>
-            <p>
+            <p class="bold-text-color">
               <b>Note</b>:
             </p>
             <p>
@@ -975,7 +975,7 @@
             </p>
           </div>
           <div id="menuSeven-4">
-            <p>
+            <p class="bold-text-color">
               <b>7.4 CCPA Legal Rights</b>
             </p>
             <p>
@@ -984,12 +984,12 @@
             </p>
             <ul>
               <li>
-                <b>The right to notice</b>. You have the right to be notified which categories of Personal Data are
+                <b class="bold-text-color">The right to notice</b>. You have the right to be notified which categories of Personal Data are
                 being
                 collected and the purposes for which the Personal Data is being used.
               </li>
               <li>
-                <b>The right to request</b>. Under CCPA, you have the right to request that we disclose information to
+                <b class="bold-text-color">The right to request</b>. Under CCPA, you have the right to request that we disclose information to
                 you
                 about our collection, use, sale, disclosure for business purposes, and sharing of personal information.
                 Once we receive and confirm your request, we will disclose to you:
@@ -1024,12 +1024,12 @@
                 </ul>
               </li>
               <li>
-                <b>The right to say no to the sale of Personal Data (opt-out)</b>. You have the right to direct us not
+                <b class="bold-text-color">The right to say no to the sale of Personal Data (opt-out)</b>. You have the right to direct us not
                 to sell your personal information. To submit an opt-out request, please contact Us. However, we don’t
                 sell any personal data.
               </li>
               <li>
-                <b>The right to delete Personal Data</b>. You have the right to request the deletion of your Personal
+                <b class="bold-text-color">The right to delete Personal Data</b>. You have the right to request the deletion of your Personal
                 Data, subject to certain exceptions. Once we receive and confirm your request, we will delete (and
                 direct our service providers to delete) your personal information from our records unless an exception
                 applies. We may deny your deletion request if retaining the information is necessary for us or our
@@ -1096,7 +1096,7 @@
                 </ul>
               </li>
             </ul>
-            <p>
+            <p class="bold-text-color">
               <b>"Do Not Track" Policy</b>
             </p>
             <p>
@@ -1110,10 +1110,10 @@
 
       <section id="menuEight-section">
         <h1>8. SHARING PERSONAL LEGAL RIGHTS</h1>
-        <p>
+        <p class="text-color">
           We may disclose or share your Personal Data in good faith that such action is necessary to:
         </p>
-        <ul>
+        <ul class="text-color">
           <li>
             Comply with a legal obligation
           </li>
@@ -1134,20 +1134,20 @@
 
       <section id="menuNine-section">
         <h1>9. MINORS</h1>
-        <p>
+        <p class="text-color">
           The service may contain content inappropriate for children under the age of 13. As a parent, you should know
           that through the service, children under the age of 13 may participate in activities that involve the
           collection or use of personal information. We use reasonable efforts to ensure that before we collect any
           personal information from a child, the child's parent receives notice of and consents to our personal
           information practices.
         </p>
-        <p>
+        <p class="text-color">
           We also may limit how we collect, use, and store some of the information of users between 13 and 18 years old.
           In some cases, this means we will be unable to provide certain functionality of the service to these users. If
           we need to rely on consent as a legal basis for processing your information and your country requires consent
           from a parent, we may require your parent's consent before we collect and use that information.
         </p>
-        <p>
+        <p class="text-color">
           We may ask a user to verify their date of birth before collecting any personal information from them. If the
           user is under the age of 13, the service may be either blocked or redirected to a parental consent process.
         </p>
@@ -1155,10 +1155,10 @@
 
       <section id="menuTen-section">
         <h1>10. CONTACT INFORMATION</h1>
-        <p>
+        <p class="text-color">
           If you have queries, concerns, or complaints about our Policy, data collection procedures, or data processing
           practices, we are always there for you. If you want to report any privacy or security violations, please feel
-          free to contact us at <a href="mailto:example@invoicemaker.com">example@invoicemaker.com</a>.
+          free to contact us at <a href="mailto:example@invoicemaker.com" class="text-link">example@invoicemaker.com</a>.
         </p>
       </section>
 
@@ -1219,8 +1219,14 @@
         </div>
       </div>
     </div>
+    <div class="copyright-text">
+      &copy; <?php echo date('Y'); ?> Invoice A2Z. All rights reserved.
+    </div>
   </footer>
 
+  <a href="#" class="scroll-to-top">
+    <i class="fa fa-chevron-up"></i>
+  </a>
 
   <script src="js/responsive.js"></script>
   <script src="js/app.js"></script>

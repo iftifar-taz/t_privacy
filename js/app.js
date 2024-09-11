@@ -1,5 +1,9 @@
 // Get all sections that have an ID defined
 const sections = document.querySelectorAll("section[id]");
+const scrollTopButton = document.querySelector(".scroll-to-top");
+scrollTopButton.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
 window.addEventListener("scroll", navHighlighter);
 
 function navHighlighter() {
@@ -46,6 +50,11 @@ function navHighlighter() {
       alert("Something went wrong.");
     }
   });
+  if (window.scrollY > 1500) {
+    scrollTopButton.style.display = "block";
+  } else {
+    scrollTopButton.style.display = "none";
+  }
 }
 
 function childNvHighlighter(current, menu) {
