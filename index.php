@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
   <!-- Favicon  -->
-  <!--    <link rel="icon" href="images/favicon.png">-->
+  <link rel="icon" href="img/favicon.png">
 </head>
 
 <body>
@@ -275,7 +275,7 @@
                 <b class="bold-text-color">Device data</b>. Includes model, OS version, and language. Unique device identifiers (including IDFA
                 or
                 GAID);
-              </li>              
+              </li>
               <li>
                 <b class="bold-text-color">Device function</b>. Access to your camera;
               </li>

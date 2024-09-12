@@ -5,7 +5,6 @@ for (i = 0; i < items.length; i++) {
   items[i].addEventListener("click", function () {
     let sibling = this.nextElementSibling;
     let icon = this.querySelector("i");
-    console.log('Click event triggered');
     if (!sibling.classList.contains("d-block")) {
       sibling.classList.remove("d-none");
       sibling.classList.add("d-block");

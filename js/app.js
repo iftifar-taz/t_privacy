@@ -4,16 +4,19 @@ const scrollTopButton = document.querySelector(".scroll-to-top");
 const headerHeight = document.querySelector(".header").getBoundingClientRect().height;
 let currentActiveParents = null;
 let clickedParent = null;
+let isScroll = false;
 
-scrollTopButton.addEventListener("click", () => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
-});
 window.addEventListener("scroll", () => {
+  isScroll = true;
   this.navHighlighter();
+  setTimeout(() => {
+    isScroll = false;
+}, 2000);
 });
 
 function navHighlighter() {
   let scrollY = window.scrollY;
+  currentActiveParents = currentActiveParents || [];
   sections.forEach((current) => {
     const sectionHeight = current.offsetHeight;
     const sectionTop = current.offsetTop - headerHeight;
@@ -25,7 +28,7 @@ function navHighlighter() {
         ".navigation ul li[id*=" + menuId + "] div a"
       );
 
-      if ([...currentActiveParents, clickedParent].includes(hyperlink)) {
+      if ([...currentActiveParents, clickedParent].includes(hyperlink) || isScroll) {
         let parent = document.querySelector(
           ".navigation ul li[id*=" + menuId + "]"
         );
@@ -104,7 +107,6 @@ function scrollToSection(sectionId) {
   clickedParent = document.querySelector(
     ".navigation ul li[id*=" + menuId + "] div a"
   );
-       
   const section = document.getElementById(sectionId);
   if (section) {
     window.scrollTo({
@@ -113,3 +115,7 @@ function scrollToSection(sectionId) {
     });
   }
 }
+
+scrollTopButton.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
