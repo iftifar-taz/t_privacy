@@ -220,13 +220,6 @@ i.fa-chevron-down {
   transition: transform 0.3s ease;
 }
 
-/* i.fa-chevron-up {
-  transform: rotate(180deg);
-} */
-.fa-chevron-down.rotate {
-  transform: rotate(180deg) !important;
-}
-
 .main-content {
   margin-left: 450px;
   margin-top: 85px;
@@ -495,6 +488,3 @@ tr:last-child td {
 .bold-text-color {
   color: #FFF;
 }
-
-
-

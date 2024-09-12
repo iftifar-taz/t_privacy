@@ -2,21 +2,13 @@
 const sections = document.querySelectorAll("section[id]");
 const scrollTopButton = document.querySelector(".scroll-to-top");
 const headerHeight = document.querySelector(".header").getBoundingClientRect().height;
-let currentActiveParents = null;
-let clickedParent = null;
-let isScroll = false;
 
-window.addEventListener("scroll", () => {
-  isScroll = true;
+window.addEventListener("scrollend", () => {
   this.navHighlighter();
-  setTimeout(() => {
-    isScroll = false;
-}, 2000);
 });
 
 function navHighlighter() {
   let scrollY = window.scrollY;
-  currentActiveParents = currentActiveParents || [];
   sections.forEach((current) => {
     const sectionHeight = current.offsetHeight;
     const sectionTop = current.offsetTop - headerHeight;
@@ -28,32 +20,30 @@ function navHighlighter() {
         ".navigation ul li[id*=" + menuId + "] div a"
       );
 
-      if ([...currentActiveParents, clickedParent].includes(hyperlink) || isScroll) {
-        let parent = document.querySelector(
-          ".navigation ul li[id*=" + menuId + "]"
-        );
-        let secondChild = parent?.childNodes[3];
-        let icon = parent.querySelector("div i");
-        if (scrollY >= sectionTop && scrollY <= sectionTop + sectionHeight) {
-          hyperlink.classList.add("active-parent");
-          if (secondChild && secondChild.classList.contains("d-none")) {
-            secondChild.classList.remove("d-none");
-            secondChild.classList.add("d-block");
-            if (icon) {
-              icon.classList.remove("fa-chevron-down");
-              icon.classList.add("fa-chevron-up");
-            }
+      let parent = document.querySelector(
+        ".navigation ul li[id*=" + menuId + "]"
+      );
+      let secondChild = parent?.childNodes[3];
+      let icon = parent.querySelector("div i");
+      if (scrollY >= sectionTop && scrollY <= sectionTop + sectionHeight) {
+        hyperlink.classList.add("active-parent");
+        if (secondChild && secondChild.classList.contains("d-none")) {
+          secondChild.classList.remove("d-none");
+          secondChild.classList.add("d-block");
+          if (icon) {
+            icon.classList.remove("fa-chevron-down");
+            icon.classList.add("fa-chevron-up");
           }
-          childNvHighlighter(current, parent);
-        } else {
-          hyperlink.classList.remove("active-parent");
-          if (secondChild && secondChild.classList.contains("d-block")) {
-            secondChild.classList.remove("d-block");
-            secondChild.classList.add("d-none");
-            if (icon) {
-              icon.classList.remove("fa-chevron-up");
-              icon.classList.add("fa-chevron-down");
-            }
+        }
+        childNvHighlighter(current, parent);
+      } else {
+        hyperlink.classList.remove("active-parent");
+        if (secondChild && secondChild.classList.contains("d-block")) {
+          secondChild.classList.remove("d-block");
+          secondChild.classList.add("d-none");
+          if (icon) {
+            icon.classList.remove("fa-chevron-up");
+            icon.classList.add("fa-chevron-down");
           }
         }
       }
@@ -102,11 +92,6 @@ function childNvHighlighter(current, menu) {
 }
 
 function scrollToSection(sectionId) {
-  currentActiveParents = document.querySelectorAll(".active-parent");
-  let menuId = sectionId.split("-")[0];
-  clickedParent = document.querySelector(
-    ".navigation ul li[id*=" + menuId + "] div a"
-  );
   const section = document.getElementById(sectionId);
   if (section) {
     window.scrollTo({
