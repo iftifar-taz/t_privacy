@@ -215,11 +215,11 @@ nav li .child-item li a:hover {
   transition: max-height 0.6s ease-in;
 }
 
-.navigation .fa.rotate {
+.fa.rotate {
   transform: rotate(180deg);
 }
 
-.navigation .fa-chevron-down {
+.fa-chevron-down {
   transition: transform 0.3s ease;
 }
 
