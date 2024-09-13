@@ -31,25 +31,26 @@ function navHighlighter() {
           secondChild.classList.remove("d-none");
           secondChild.classList.add("d-block");
           if (icon) {
-            icon.classList.remove("fa-chevron-down");
-            icon.classList.add("fa-chevron-up");
+            icon.classList.add('rotate');
           }
         }
-        childNvHighlighter(current, parent);
+        childNavHighlighter(current, parent);
       } else {
         hyperlink.classList.remove("active-parent");
         if (secondChild && secondChild.classList.contains("d-block")) {
           secondChild.classList.remove("d-block");
           secondChild.classList.add("d-none");
           if (icon) {
-            icon.classList.remove("fa-chevron-up");
-            icon.classList.add("fa-chevron-down");
+            icon.classList.remove('rotate');
           }
         }
       }
     } else {
       alert("Something went wrong.");
     }
+  });
+  document.querySelectorAll('.navigation .child-item.d-none .active-child').forEach(x => {
+    x.classList.remove('active-child');
   });
   if (window.scrollY > 1500) {
     scrollTopButton.style.display = "block";
@@ -58,7 +59,7 @@ function navHighlighter() {
   }
 }
 
-function childNvHighlighter(current, menu) {
+function childNavHighlighter(current, menu) {
   let scrollVertical = window.scrollY;
 
   if(Object.keys(menu.children).length  < 2){

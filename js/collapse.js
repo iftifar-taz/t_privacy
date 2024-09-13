@@ -9,13 +9,11 @@ for (i = 0; i < items.length; i++) {
       if (!sibling.classList.contains("d-block")) {
         sibling.classList.remove("d-none");
         sibling.classList.add("d-block");
-        icon.classList.remove('fa-chevron-down');
-        icon.classList.add('fa-chevron-up');
+        icon.classList.add('rotate');
       } else {
         sibling.classList.remove("d-block");
         sibling.classList.add("d-none");
-        icon.classList.remove('fa-chevron-up');
-        icon.classList.add('fa-chevron-down');
+        icon.classList.remove('rotate');
       }
     }
   });
@@ -31,11 +29,9 @@ mobileDrop &&
     let display = window.getComputedStyle(parent).display;
     if (display === "none") {
       nav.style.display = "block";
-      iconMobile.classList.remove('fa-chevron-down');
-      iconMobile.classList.add('fa-chevron-up');
+      iconMobile.classList.add('rotate');
     } else {
       nav.style.display = "none";
-      iconMobile.classList.remove('fa-chevron-up');
-      iconMobile.classList.add('fa-chevron-down');
+      iconMobile.classList.remove('rotate');
     }
   });
