@@ -4,15 +4,17 @@ let i;
 for (i = 0; i < items.length; i++) {
   items[i].addEventListener("click", function () {
     let sibling = this.nextElementSibling;
-    let icon = this.querySelector("i");
-    if (!sibling.classList.contains("d-block")) {
-      sibling.classList.remove("d-none");
-      sibling.classList.add("d-block");
-      icon.classList.add('rotate');
-    } else {
-      sibling.classList.remove("d-block");
-      sibling.classList.add("d-none");
-      icon.classList.remove('rotate');
+    if (sibling) {
+      let icon = this.querySelector("i");
+      if (!sibling.classList.contains("d-block")) {
+        sibling.classList.remove("d-none");
+        sibling.classList.add("d-block");
+        icon.classList.add('rotate');
+      } else {
+        sibling.classList.remove("d-block");
+        sibling.classList.add("d-none");
+        icon.classList.remove('rotate');
+      }
     }
   });
 }
@@ -27,9 +29,7 @@ mobileDrop &&
     let display = window.getComputedStyle(parent).display;
     if (display === "none") {
       nav.style.display = "block";
-      setTimeout(() => {
-        iconMobile.classList.add('rotate'); 
-      }, 0);
+      iconMobile.classList.add('rotate');
     } else {
       nav.style.display = "none";
       iconMobile.classList.remove('rotate');
