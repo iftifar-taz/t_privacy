@@ -1,13 +1,33 @@
-// Get all sections that have an ID defined
 const sections = document.querySelectorAll("section[id]");
 const scrollTopButton = document.querySelector(".scroll-to-top");
-const headerHeight = document.querySelector(".header").getBoundingClientRect().height;
+const headerHeight = document
+  .querySelector(".header")
+  .getBoundingClientRect().height;
 let scrollTimeout = null;
+const nav = document.querySelector(".navigation");
+const subFooter = document.querySelector(".sub-footer");
+const footer = document.querySelector(".footer");
+const subFooterTop = subFooter.offsetTop;
 
 // window.addEventListener("scrollend", () => {
 //   this.navHighlighter();
 // });
 window.addEventListener("scroll", () => {
+  // Get current scroll position
+  let scrollY = window.scrollY;
+
+  // Check if the sub-footer is about to overlap the navigation
+  if (scrollY + nav.offsetHeight > subFooterTop) {
+    // Adjust the navigation's position to scroll up
+    nav.style.position = "absolute";
+    nav.style.top = `${subFooterTop - nav.offsetHeight}px`;
+  } else {
+    // Reset the navigation's position to fixed
+    nav.style.position = "fixed";
+    nav.style.top = "0px";
+  }
+
+  // nav highlighter
   if (scrollTimeout) {
     clearTimeout(scrollTimeout);
   }
@@ -17,9 +37,6 @@ window.addEventListener("scroll", () => {
 });
 
 function navHighlighter() {
-  // Get current scroll position
-  let scrollY = window.scrollY;
-
   sections.forEach((current) => {
     const sectionHeight = current.offsetHeight;
     const sectionTop = current.offsetTop - headerHeight;
@@ -42,7 +59,7 @@ function navHighlighter() {
           secondChild.classList.remove("d-none");
           secondChild.classList.add("d-block");
           if (icon) {
-            icon.classList.add('rotate');
+            icon.classList.add("rotate");
           }
         }
         childNavHighlighter(current, parent);
@@ -52,7 +69,7 @@ function navHighlighter() {
           secondChild.classList.remove("d-block");
           secondChild.classList.add("d-none");
           if (icon) {
-            icon.classList.remove('rotate');
+            icon.classList.remove("rotate");
           }
         }
       }
@@ -62,9 +79,11 @@ function navHighlighter() {
   });
 
   //Remove active child
-  document.querySelectorAll('.navigation .child-item.d-none .active-child').forEach(x => {
-    x.classList.remove('active-child');
-  });
+  document
+    .querySelectorAll(".navigation .child-item.d-none .active-child")
+    .forEach((x) => {
+      x.classList.remove("active-child");
+    });
 
   //Scroll to top button
   if (window.scrollY > 500) {
@@ -77,7 +96,7 @@ function navHighlighter() {
 function childNavHighlighter(current, menu) {
   let scrollVertical = window.scrollY;
 
-  if(Object.keys(menu.children).length  < 2){
+  if (Object.keys(menu.children).length < 2) {
     return;
   }
   //Menu
@@ -107,6 +126,7 @@ function childNavHighlighter(current, menu) {
     });
 }
 
+// nav menu click
 function scrollToSection(sectionId) {
   const section = document.getElementById(sectionId);
   if (section) {
@@ -117,6 +137,7 @@ function scrollToSection(sectionId) {
   }
 }
 
+// Scroll to top button click
 scrollTopButton.addEventListener("click", () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
