@@ -9,7 +9,6 @@
   <meta name="description" content="Privacy Policy">
   <meta name="author" content="">
 
-
   <!-- Website Title -->
   <title>Privacy Policy</title>
 
@@ -31,9 +30,9 @@
       <div class="top-nav">
         <a href="#" class="top-nav-li">Features</a>
         <a href="#" class="top-nav-li">Templates</a>
-        <a href="#" class="top-nav-li">Resources</a>
+        <a href="#" class="top-nav-li">Blog</a>
         <a href="#" class="top-nav-li">Pricing</a>
-        <a href="#" class="bt-grad">Get the App</a>
+        <a href="https://apps.apple.com/us/app/fitness-app-home-workout/id1571276393" class="bt-grad">Get the App</a>
       </div>
     </div>
   </header>
@@ -41,7 +40,7 @@
   <main>
 
     <div class="mobile-dropdown">
-      <p>Table of Content</p>
+      <p>Table of Contents</p>
       <i class="fa fa-chevron-down" aria-hidden="true"></i>
     </div>
 
@@ -50,9 +49,9 @@
         <li class="menu-list" id="menuOne">
           <div class="item">
             <div>
-              <p>1.</p>
+              <!-- <p>1.</p> -->
               <a href="javascript:void(0)" onclick="scrollToSection('menuOne-section')">
-                Types Of Data We Or Our Service Provider Collects
+                1.&nbsp; Types Of Data We Or Our Service Provider Collects
               </a>
             </div>
             <i class="fa fa-chevron-down " aria-hidden="true"></i>
@@ -78,9 +77,9 @@
         <li class="menu-list" id="menuTwo">
           <div class="item">
             <div>
-              <p>2.</p>
+              <!-- <p>2.</p> -->
               <a href="javascript:void(0)" onclick="scrollToSection('menuTwo-section')">
-                How Data Are Collected
+                2.&nbsp; How Data Are Collected
               </a>
             </div>
             <!-- <i class="fa fa-chevron-down" aria-hidden="true"></i> -->
@@ -89,9 +88,9 @@
         <li class="menu-list" id="menuThree">
           <div class="item">
             <div>
-              <p>3.</p>
+              <!-- <p>3.</p> -->
               <a href="javascript:void(0)" onclick="scrollToSection('menuThree-section')">
-                Lawful Bases For Processing
+                3.&nbsp; Lawful Bases For Processing
               </a>
             </div>
             <!-- <i class="fa fa-chevron-down" aria-hidden="true"></i> -->
@@ -100,9 +99,9 @@
         <li class="menu-list" id="menuFour">
           <div class="item">
             <div>
-              <p>4.</p>
+              <!-- <p>4.</p> -->
               <a href="javascript:void(0)" onclick="scrollToSection('menuFour-section')">
-                Purposes For Personal Data Use
+                4.&nbsp; Purposes For Personal Data Use
               </a>
             </div>
             <!-- <i class="fa fa-chevron-down" aria-hidden="true"></i> -->
@@ -111,9 +110,9 @@
         <li class="menu-list" id="menuFive">
           <div class="item">
             <div>
-              <p>5.</p>
+              <!-- <p>5.</p> -->
               <a href="javascript:void(0)" onclick="scrollToSection('menuFive-section')">
-                Third-Party Services & Disclosures Of Your Data
+                5.&nbsp; Third-Party Services & Disclosures Of Your Data
               </a>
             </div>
             <i class="fa fa-chevron-down" aria-hidden="true"></i>
@@ -154,9 +153,9 @@
         <li class="menu-list" id="menuSix">
           <div class="item">
             <div>
-              <p>6.</p>
+              <!-- <p>6.</p> -->
               <a href="javascript:void(0)" onclick="scrollToSection('menuSix-section')">
-                Data Retention / Deletion Policies
+                6.&nbsp; Data Retention / Deletion Policies
               </a>
             </div>
             <!-- <i class="fa fa-chevron-down" aria-hidden="true"></i> -->
@@ -165,9 +164,9 @@
         <li class="menu-list" id="menuSeven">
           <div class="item">
             <div>
-              <p>7.</p>
+              <!-- <p>7.</p> -->
               <a href="javascript:void(0)" onclick="scrollToSection('menuSeven-section')">
-                Guidelines From The Government And Industry Sources
+                7.&nbsp; Guidelines From The Government And Industry Sources
               </a>
             </div>
             <i class="fa fa-chevron-down" aria-hidden="true"></i>
@@ -198,9 +197,9 @@
         <li class="menu-list" id="menuEight">
           <div class="item">
             <div>
-              <p>8.</p>
+              <!-- <p>8.</p> -->
               <a href="javascript:void(0)" onclick="scrollToSection('menuEight-section')">
-                Sharing Personal Legal Rights
+                8.&nbsp; Sharing Personal Legal Rights
               </a>
             </div>
             <!-- <i class="fa fa-chevron-down" aria-hidden="true"></i> -->
@@ -209,9 +208,9 @@
         <li class="menu-list" id="menuNine">
           <div class="item">
             <div>
-              <p>9.</p>
+              <!-- <p>9.</p> -->
               <a href="javascript:void(0)" onclick="scrollToSection('menuNine-section')">
-                Minors
+                9.&nbsp; Minors
               </a>
             </div>
             <!-- <i class="fa fa-chevron-down" aria-hidden="true"></i> -->
@@ -220,9 +219,9 @@
         <li class="menu-list" id="menuTen">
           <div class="item">
             <div>
-              <p>10.</p>
+              <!-- <p>10.</p> -->
               <a href="javascript:void(0)" onclick="scrollToSection('menuTen-section')">
-                Contact Information
+                10.&nbsp; Contact Information
               </a>
             </div>
             <!-- <i class="fa fa-chevron-down" aria-hidden="true"></i> -->
@@ -232,6 +231,7 @@
     </nav>
 
     <div class="main-content">
+
       <div>
         <h1 class="gradient-header">Privacy Policy</h1>
         <p class="text-color">
@@ -259,7 +259,10 @@
         <p class="text-color">
           Personal data, also referred to as personal information, encompasses any details that can identify an
           individual. This definition excludes information from which personal identities have been eliminated, known as
-          anonymous data. We may collect limited personal information under consent agreed by you. Third-parties,
+          anonymous data.
+        </p>
+        <p class="text-color">
+          We may collect limited personal information under consent agreed by you. Third-parties,
           including analytics tools, advertising networks, third-party SDKs, etc. associated with our app may also
           collect several data. We have grouped those data as follows:
         </p>
@@ -423,7 +426,7 @@
             <tbody>
               <tr>
                 <td data-label="Purpose">To identify the user and use all app functions.</td>
-                <td data-label="Type of Data">Personal data. Such as the user's mail, name, business and owner name,
+                <td data-label="Type of Data"><b class="bold-text-color">Personal data.</b> Such as the user's mail, name, business and owner name,
                   telephone number, address, and own signature.</td>
                 <td data-label="Lawful Basis for Processing">
                   <ul>
@@ -435,7 +438,7 @@
               </tr>
               <tr>
                 <td data-label="Purpose">To operate our service and provide, improve, and develop the application.</td>
-                <td data-label="Type of Data">Usage data. Includes information about how you use our app, and user
+                <td data-label="Type of Data"><b class="bold-text-color">Usage data.</b> Includes information about how you use our app, and user
                   activity within the application.</td>
                 <td data-label="Lawful Basis for Processing">
                   <ul>
@@ -449,7 +452,7 @@
               <tr>
                 <td data-label="Purpose">To promote or offer you services and to determine your eligibility for new
                   products and services we may offer from time to time.</td>
-                <td data-label="Type of Data">Contacts. Information about your contacts, such as contact names and phone
+                <td data-label="Type of Data"><b class="bold-text-color">Contacts.</b> Information about your contacts, such as contact names and phone
                   numbers.</td>
                 <td data-label="Lawful Basis for Processing">
                   <ul>
@@ -459,10 +462,8 @@
                 </td>
               </tr>
               <tr>
-                <td data-label="Purpose">To promote or offer you services and to determine your eligibility for new
-                  products and services we may offer from time to time.</td>
-                <td data-label="Type of Data">Device data. Comprises device model, operating system version, language, and
-                  unique device identifiers such as IMEI or GAID.</td>
+                <td data-label="Purpose">For marketing and analytical purposes. To enhance your experience with the services.</td>
+                <td data-label="Type of Data"><b class="bold-text-color">Device data.</b> Comprises device model, operating system version, language, and unique device identifiers such as IDFA or GAID.</td>
                 <td data-label="Lawful Basis for Processing">
                   <ul>
                     <li>Performance of a contract with you.</li>
@@ -473,7 +474,7 @@
               </tr>
               <tr>
                 <td data-label="Purpose">To use all app functions, creating invoices for customers.</td>
-                <td data-label="Type of Data">Photos. Your photos into the gallery.</td>
+                <td data-label="Type of Data"><b class="bold-text-color">Photos.</b> Your photos into the gallery.</td>
                 <td data-label="Lawful Basis for Processing">
                   <ul>
                     <li>Performance of a contract with you.</li>
@@ -484,7 +485,7 @@
               <tr>
                 <td data-label="Purpose">Joint marketing partners and social media platforms. To provide, improve, and
                   develop the application.</td>
-                <td data-label="Type of Data">Location data and Demographic data. Includes internet protocol (IP) address
+                <td data-label="Type of Data"><b class="bold-text-color">Location data and Demographic data.</b> Includes internet protocol (IP) address
                   and location, country, state, city, zip code, and timezone.</td>
                 <td data-label="Lawful Basis for Processing">
                   <ul>
@@ -497,7 +498,7 @@
               </tr>
               <tr>
                 <td data-label="Purpose">To use all app functions, creating invoices for customers.</td>
-                <td data-label="Type of Data">Device function. Access to your camera.</td>
+                <td data-label="Type of Data"><b class="bold-text-color">Device function.</b> Access to your camera.</td>
                 <td data-label="Lawful Basis for Processing">
                   <ul>
                     <li>Performance of a contract with you.</li>
@@ -507,7 +508,7 @@
               </tr>
               <tr>
                 <td data-label="Purpose">To grant app access, authenticate users, and monitor subscription duration.</td>
-                <td data-label="Type of Data">Data on subscription fees. This is the information we get from the App Store
+                <td data-label="Type of Data"><b class="bold-text-color">Data on subscription fees.</b> This is the information we get from the App Store
                   when you buy our subscription.</td>
                 <td data-label="Lawful Basis for Processing">
                   <ul>
@@ -521,7 +522,7 @@
               <tr>
                 <td data-label="Purpose">To improve the security of our services, for user identification, and to utilize
                   all application features.</td>
-                <td data-label="Type of Data">Data from third-parties. Such as name and ID when users register with
+                <td data-label="Type of Data"><b class="bold-text-color">Data from third-parties.</b> Such as name and ID when users register with
                   Google, Facebook, or Apple accounts.</td>
                 <td data-label="Lawful Basis for Processing">
                   <ul>
@@ -532,7 +533,7 @@
               </tr>
               <tr>
                 <td data-label="Purpose">To use all app functions, creating invoices for clients.</td>
-                <td data-label="Type of Data">Data of your clients. Includes your client's name, email, phone, mobile, and
+                <td data-label="Type of Data"><b class="bold-text-color">Data of your clients.</b> Includes your client's name, email, phone, mobile, and
                   address.</td>
                 <td data-label="Lawful Basis for Processing">
                   <ul>
@@ -543,7 +544,7 @@
               </tr>
               <tr>
                 <td data-label="Purpose">To process payments and maintain legal/regulatory compliance.</td>
-                <td data-label="Type of Data">Financial info. Such as a bank account, checks, and PayPal email.</td>
+                <td data-label="Type of Data"><b class="bold-text-color">Financial info.</b> Such as a bank account, checks, and PayPal email.</td>
                 <td data-label="Lawful Basis for Processing">
                   <ul>
                     <li>Performance of a contract with you.</li>
@@ -553,7 +554,7 @@
               </tr>
               <tr>
                 <td data-label="Purpose">To describe business-related information related to the services.</td>
-                <td data-label="Type of Data">Business information. Item info includes information on which services the
+                <td data-label="Type of Data"><b class="bold-text-color">Business information.</b> Item info includes information on which services the
                   user provides, what goods he sells, what their cost is, and the amount of tax.</td>
                 <td data-label="Lawful Basis for Processing">
                   <ul>
@@ -634,8 +635,7 @@
               <b>5.3 Facebook Analytics</b>
             </p>
             <p>
-              You may opt out of certain Firebase features through your mobile device settings, such as your device
-              advertising settings, or by following the inst
+              Their Privacy Policy can be viewed at <a href="https://www.facebook.com/about/privacy/previous" class="text-link">https://www.facebook.com/about/privacy/previous</a>
             </p>
           </div>
           <div id="menuFive-4">
@@ -902,7 +902,7 @@
                 Publicly available information from government records
               </li>
               <li>
-                Identified or aggregated consumer information
+                De-identified or aggregated consumer information
               </li>
               <li>
                 Information excluded from the CCPA's scope, such as:
@@ -1066,17 +1066,15 @@
                   </li>
                   <li>
                     Comply with a legal obligation.
-                    <ul>
-                      <li>
-                        Make other internal and lawful uses of that information that are compatible with the context in
-                        which you provided it.
-                      </li>
-                    </ul>
+                  </li>
+                  <li>
+                    Make other internal and lawful uses of that information that are compatible with the context in
+                    which you provided it.
                   </li>
                 </ul>
               </li>
               <li>
-                You have the right not to be discriminated against for exercising any of your consumer's rights,
+                <b class="bold-text-color">The right not to be discriminated against.</b>You have the right not to be discriminated against for exercising any of your consumer's rights,
                 including by:
                 <ul>
                   <li>
@@ -1163,6 +1161,7 @@
       </section>
 
     </div>
+
   </main>
 
   <section class="sub-footer">
@@ -1172,7 +1171,7 @@
         Step into a world of elegant invoicing and experience a seamless financial management system with our
         all-in-one app to streamline your business operations.
       </p>
-      <a href="#" class="app-store-button">
+      <a href="https://apps.apple.com/us/app/fitness-app-home-workout/id1571276393" class="app-store-button">
         <img src="img/app_store.png" alt="Download on the App Store">
       </a>
     </div>
@@ -1188,10 +1187,10 @@
           <h4>Product</h4>
           <ul>
             <li>
-              <a href="#">Explore Invoice</a>
+              <a href="#">Blog</a>
             </li>
             <li>
-              <a href="#">Blog</a>
+              <a href="#">Templates</a>
             </li>
           </ul>
         </div>
@@ -1199,10 +1198,10 @@
           <h4>Support</h4>
           <ul>
             <li>
-              <a href="#">FAQs</a>
+              <a href="#">Contact us</a>
             </li>
             <li>
-              <a href="#">Contact us</a>
+              <a href="https://support.invoicea2z.com/hc">Help Center</a>
             </li>
           </ul>
         </div>
@@ -1210,17 +1209,17 @@
           <h4>Legal</h4>
           <ul>
             <li>
-              <a href="#">Terms of use</a>
+              <a href="">Privacy Policy</a>
             </li>
             <li>
-              <a href="#">Privacy Policy</a>
+              <a href="#">Terms of Use</a>
             </li>
           </ul>
         </div>
       </div>
     </div>
     <div class="copyright-text">
-      &copy; <?php echo date('Y'); ?> Invoice A2Z. All rights reserved.
+      Copyright &copy; <?php echo date('Y'); ?> <a href="https://invoicea2z.com" class="text-link">Invoice A2Z LLC</a>. All rights reserved.
     </div>
   </footer>
 
@@ -1231,6 +1230,7 @@
   <script src="js/responsive.js"></script>
   <script src="js/app.js"></script>
   <script src="js/collapse.js"></script>
+
 </body>
 
 </html>

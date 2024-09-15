@@ -2,13 +2,24 @@
 const sections = document.querySelectorAll("section[id]");
 const scrollTopButton = document.querySelector(".scroll-to-top");
 const headerHeight = document.querySelector(".header").getBoundingClientRect().height;
+let scrollTimeout = null;
 
-window.addEventListener("scrollend", () => {
-  this.navHighlighter();
+// window.addEventListener("scrollend", () => {
+//   this.navHighlighter();
+// });
+window.addEventListener("scroll", () => {
+  if (scrollTimeout) {
+    clearTimeout(scrollTimeout);
+  }
+  scrollTimeout = setTimeout(() => {
+    this.navHighlighter();
+  }, 500); // adjust the timeout value as needed (max should be time takes to go from 1st menu to last menu when clicked)
 });
 
 function navHighlighter() {
+  // Get current scroll position
   let scrollY = window.scrollY;
+
   sections.forEach((current) => {
     const sectionHeight = current.offsetHeight;
     const sectionTop = current.offsetTop - headerHeight;
@@ -49,10 +60,14 @@ function navHighlighter() {
       alert("Something went wrong.");
     }
   });
+
+  //Remove active child
   document.querySelectorAll('.navigation .child-item.d-none .active-child').forEach(x => {
     x.classList.remove('active-child');
   });
-  if (window.scrollY > 1500) {
+
+  //Scroll to top button
+  if (window.scrollY > 500) {
     scrollTopButton.style.display = "block";
   } else {
     scrollTopButton.style.display = "none";
