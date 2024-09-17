@@ -38,7 +38,7 @@ mobileDrop &&
     }
   });
 
-  document.getElementById("collapseBtn").addEventListener("click", function() {
-    document.querySelector(".mobile-nav-links").classList.toggle("d-block");
-    document.querySelector(".mobile-nav-links").classList.toggle("d-none");
-  });
+document.getElementById("collapseBtn").addEventListener("click", function () {
+  document.querySelector(".mobile-nav-links").classList.toggle("d-block");
+  document.querySelector(".mobile-nav-links").classList.toggle("d-none");
+});

@@ -32,14 +32,15 @@
         <a href="#" class="top-nav-li">Templates</a>
         <a href="#" class="top-nav-li">Blog</a>
         <a href="#" class="top-nav-li">Pricing</a>
+        <div class="header-buttons">
         <a href="https://apps.apple.com/us/app/fitness-app-home-workout/id1571276393" class="bt-grad">Get the App</a>
+        <div class="mobile-collapse-btn">
+          <button class="btn btn-primary" id="collapseBtn">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
       </div>
-    </div>
-    
-    <div class="mobile-collapse-btn d-lg-none">
-      <button class="btn btn-primary" id="collapseBtn">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-      </button>
+      </div>
     </div>
 
     <div class="mobile-nav-links d-none">
