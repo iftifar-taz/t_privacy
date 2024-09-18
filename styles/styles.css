@@ -111,7 +111,7 @@ header .head-body .top-nav .top-nav-li {
 }
 
 header .head-body .top-nav .top-nav-li:hover {
-  color: #00F0FF;
+  color: #CFB5FF;
 }
 
 header img {
@@ -178,11 +178,11 @@ nav li .item a {
 }
 
 nav li .item:hover a {
-  color: #00F0FF;
+  color: #CFB5FF;
 }
 
 nav li .item:hover p {
-  color: #00F0FF;
+  color: #CFB5FF;
 }
 
 nav li .child-item {
@@ -208,7 +208,7 @@ nav li .child-item li a {
 }
 
 nav li .child-item li a:hover {
-  color: #00F0FF;
+  color: #CFB5FF;
 }
 
 .child-item {
@@ -242,11 +242,11 @@ section {
 }
 
 .active-parent {
-  color: #00F0FF !important;
+  color: #CFB5FF !important;
 }
 
 .active-child {
-  color: #00F0FF !important;
+  color: #CFB5FF !important;
 }
 
 .text-link {
@@ -283,12 +283,13 @@ section {
 
 .mobile-dropdown i {
   font-size: 20px;
+  padding: 5px;
 }
 
 .mobile-collapse-btn button {
   background: none;
   border: none;
-  color: #FFF;
+  color: #fff;
   font-size: 24px;
 }
 
@@ -297,10 +298,10 @@ section {
   position: absolute;
   top: 60px;
   right: 20px;
-  background-color: #1c1c1c; 
+  background-color: #1c1c1c;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 1000;
 }
 
@@ -318,13 +319,13 @@ section {
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
-  color: #E0E0E0;
+  color: #e0e0e0;
   padding: 10px;
   display: block;
   cursor: pointer;
 }
 .mobile-nav-links ul li a:hover {
-  color: #00F0FF; 
+  color: #CFB5FF;
 }
 
 .mobile-collapse-btn {
@@ -334,7 +335,7 @@ section {
 .mobile-collapse-btn button {
   background: none;
   border: none;
-  color: #FFF;
+  color: #fff;
   font-size: 24px;
   cursor: pointer;
 }
@@ -421,7 +422,7 @@ tr:last-child td {
   padding: 60px 20px;
   text-align: center;
   color: #161616;
-  z-index: 1000;
+  /* z-index: 1000; */
   position: relative;
 }
 
@@ -457,9 +458,9 @@ tr:last-child td {
 .footer {
   background-color: #111111;
   padding: 0;
-  color: #ffffff;
-  z-index: 1000;
-  position: relative;
+  color: #fff;
+  /* z-index: 1000; */
+  /* position: relative; */
 }
 
 .footer-content {
@@ -485,7 +486,7 @@ tr:last-child td {
 .footer-column h4 {
   font-size: 20px;
   font-weight: 500;
-  color: #ffffff;
+  color: #fff;
   line-height: 34px;
   margin-bottom: 30px;
 }
@@ -510,7 +511,7 @@ tr:last-child td {
 }
 
 .footer-column ul li a:hover {
-  color: #00F0FF; /* Hover color for links */
+  color: #CFB5FF; /* Hover color for links */
 }
 
 #anchor {
@@ -519,18 +520,13 @@ tr:last-child td {
 
 .copyright-text {
   max-width: 1500px;
-  margin: auto;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  margin: 0 auto;
   padding: 10px;
   text-align: center;
   font-size: 12px;
   color: #666;
   border-top: 1px solid #666;
   width: 100%;
-  z-index: 1;
-  position: absolute;
 }
 
 .scroll-to-top {
