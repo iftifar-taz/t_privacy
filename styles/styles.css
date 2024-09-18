@@ -111,7 +111,7 @@ header .head-body .top-nav .top-nav-li {
 }
 
 header .head-body .top-nav .top-nav-li:hover {
-  color: #00f0ff;
+  color: #CFB5FF;
 }
 
 header img {
@@ -178,11 +178,11 @@ nav li .item a {
 }
 
 nav li .item:hover a {
-  color: #00f0ff;
+  color: #CFB5FF;
 }
 
 nav li .item:hover p {
-  color: #00f0ff;
+  color: #CFB5FF;
 }
 
 nav li .child-item {
@@ -208,7 +208,7 @@ nav li .child-item li a {
 }
 
 nav li .child-item li a:hover {
-  color: #00f0ff;
+  color: #CFB5FF;
 }
 
 .child-item {
@@ -242,11 +242,11 @@ section {
 }
 
 .active-parent {
-  color: #00f0ff !important;
+  color: #CFB5FF !important;
 }
 
 .active-child {
-  color: #00f0ff !important;
+  color: #CFB5FF !important;
 }
 
 .text-link {
@@ -325,7 +325,7 @@ section {
   cursor: pointer;
 }
 .mobile-nav-links ul li a:hover {
-  color: #00f0ff;
+  color: #CFB5FF;
 }
 
 .mobile-collapse-btn {
@@ -511,7 +511,7 @@ tr:last-child td {
 }
 
 .footer-column ul li a:hover {
-  color: #00f0ff; /* Hover color for links */
+  color: #CFB5FF; /* Hover color for links */
 }
 
 #anchor {
