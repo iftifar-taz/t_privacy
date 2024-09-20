@@ -12,11 +12,16 @@
     margin-top: 0px;
   }
   nav {
-    display: none;
     width: 100%;
-    position: static;
+    position: fixed;
+    top: 25px;
     height: fit-content;
     margin-top: 0px;
+    background-color: #161616;
+  }
+
+  nav ul {
+    display: none;
   }
   nav ul li .item {
     gap: 10px;
@@ -28,7 +33,7 @@
   }
   .main-content {
     margin-left: 0px;
-    margin-top: 0px;
+    margin-top: 120px;
     padding: 1.6rem;
   }
   .mobile-dropdown {
@@ -40,6 +45,7 @@
   }
   header {
     padding: 5px 10px;
+    top: 0;
   }
   header .head-body .top-nav .top-nav-li {
     display: none;

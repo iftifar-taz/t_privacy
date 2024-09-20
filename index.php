@@ -55,14 +55,12 @@
   </header>
 
   <main>
-
-    <div class="mobile-dropdown">
-      <p>Table of Contents</p>
-      <i class="fa fa-chevron-down" aria-hidden="true"></i>
-    </div>
-
-    <nav class="navigation" id="aside">
-      <ul>
+    <nav class="navigation">
+      <div class="mobile-dropdown">
+        <p>Table of Contents</p>
+        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+      </div>
+      <ul id="aside">
         <li class="menu-list" id="menuOne">
           <div class="item">
             <div>

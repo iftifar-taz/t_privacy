@@ -20,14 +20,12 @@ for (i = 0; i < items.length; i++) {
 }
 
 //Mobile collapse
-var mobileDrop = document.getElementsByClassName("mobile-dropdown");
-const iconMobile = document.querySelector(".fa-chevron-down");
+var mobileDrop = document.querySelector(".mobile-dropdown");
+const iconMobile = document.querySelector(".mobile-dropdown .fa-chevron-down");
 mobileDrop &&
-  mobileDrop[0].addEventListener("click", function () {
-    let parent = document.getElementById("aside");
-    let nav = document.getElementsByTagName("nav")[0];
-    let display = window.getComputedStyle(parent).display;
-    if (display === "none") {
+  mobileDrop.addEventListener("click", function () {
+    let nav = document.querySelector("#aside");
+    if (getComputedStyle(nav).display === "none") {
       nav.style.display = "block";
       iconMobile.classList.add("rotate");
       // mobileDrop[0].style.display = "block";

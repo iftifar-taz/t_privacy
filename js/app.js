@@ -16,9 +16,11 @@ window.mobileBrowser = function () {
 
 const sections = document.querySelectorAll("section[id]");
 const scrollTopButton = document.querySelector(".scroll-to-top");
-const headerHeight = document
-  .querySelector(".header")
-  .getBoundingClientRect().height;
+let headerHeight = document.querySelector(".header").getBoundingClientRect().height;
+if (mobileBrowser()) {
+  headerHeight += Math.ceil(document.querySelector('.mobile-dropdown').getBoundingClientRect().height);
+}
+
 let scrollTimeout = null;
 const nav = document.querySelector(".navigation");
 const subFooter = document.querySelector(".sub-footer");
@@ -31,7 +33,7 @@ const subFooterTop = subFooter.offsetTop;
 window.addEventListener("scroll", () => {
   if (!mobileBrowser()) {
     // Get current scroll position
-    let scrollY = window.scrollY;
+    let scrollY = Math.ceil(window.scrollY);
 
     // Check if the sub-footer is about to overlap the navigation
     if (scrollY + nav.offsetHeight > subFooterTop) {
@@ -56,6 +58,7 @@ window.addEventListener("scroll", () => {
 
 function navHighlighter() {
   sections.forEach((current) => {
+    let scrollY = Math.ceil(window.scrollY);
     const sectionHeight = current.offsetHeight;
     const sectionTop = current.offsetTop - headerHeight;
     let sectionId = current.getAttribute("id");
@@ -112,7 +115,7 @@ function navHighlighter() {
 }
 
 function childNavHighlighter(current, menu) {
-  let scrollVertical = window.scrollY;
+  let scrollVertical = Math.ceil(window.scrollY);
 
   if (Object.keys(menu.children).length < 2) {
     return;
@@ -146,6 +149,14 @@ function childNavHighlighter(current, menu) {
 
 // nav menu click
 function scrollToSection(sectionId) {
+  if (mobileBrowser()) {
+    let navMenu = document.querySelector("#aside");
+    if (getComputedStyle(navMenu).display === "block") {
+      navMenu.style.display = "none";
+      const iconMobile = document.querySelector(".mobile-dropdown .fa-chevron-down");
+      iconMobile.classList.remove("rotate");
+    }
+  }
   const section = document.getElementById(sectionId);
   if (section) {
     window.scrollTo({
